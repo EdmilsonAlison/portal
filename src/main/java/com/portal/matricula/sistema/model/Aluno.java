@@ -40,8 +40,7 @@ public class Aluno {
 
     private Integer codPagamento;
 
-    @OneToOne
-    private Endereco endereco;
+
 
     @Enumerated(EnumType.STRING)
     private Curso curso;

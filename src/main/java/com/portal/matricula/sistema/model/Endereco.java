@@ -26,6 +26,5 @@ public class Endereco {
 
     private String uf;
 
-    @OneToOne(mappedBy = "endereco")
-    private Aluno aluno;
+
 }
